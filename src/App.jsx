@@ -309,7 +309,7 @@ const calcOutstanding = (studentId,currentMK,students,payments) => {
 // ══════════════════════════════════════════════════════════════
 // STORAGE & MEGA API CONNECTION (100% MongoDB)
 // ══════════════════════════════════════════════════════════════
-const API_BASE = "https://tuition-planner-app.onrender.com";
+const API_BASE = "https://tuition-planner-app.onrender.com/api";
 
 const apiSync = (path, data) => {
   if (Array.isArray(data)) {
